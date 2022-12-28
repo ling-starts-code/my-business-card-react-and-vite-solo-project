@@ -43,4 +43,28 @@
 .myImage {
   max-width: 317px;
   max-height: 317px;
+  margin-bottom: 0;
+}
+
+.email-button {
+  background-color: white;
+  padding: 20px; 
+}
+
+.linkedIn-button {
+  background-color: #5093E2;
+}
+
+.email-button-text {
+  color: black;
+  
+}
+
+.linkedIn-button-text {
+  color: white;
+}
+
+.Info {
+  background-color: aquamarine;
+  margin-top: 0;
 }
