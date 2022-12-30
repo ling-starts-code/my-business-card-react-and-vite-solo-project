@@ -76,7 +76,9 @@ h4, h5 {
 
 .button {
   width: 128px;
+  
 }
+
 
 .button-img {
   display: inline-block;
@@ -87,10 +89,18 @@ h4, h5 {
   background-color: white;
 }
 
+.email-button-hover-effect :hover {
+  background-color:rgb(213, 191, 191)
+}
+
+
 .linkedIn-button {
   background-color: #5093E2;
 }
 
+.linkedIn-button-hover-effect :hover {
+  background-color: grey;
+}
 .email-button-text {
   color: black;
 }

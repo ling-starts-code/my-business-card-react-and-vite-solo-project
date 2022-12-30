@@ -16,20 +16,24 @@ export default function Info() {
           <h4> Full Stack Developer</h4>
           <h5> ling's profolio website</h5>
           <div className="button-container">
-            <address>
-              <a href="mailto:lingzhangmyself@gmail.com">
-                <button className="email-button button">
-                  <img className="button-img" src={Email} />{' '}
-                  <span className="email-button-text"> Email </span>{' '}
+            <div className="email-button-hover-effect">
+              <address>
+                <a href="mailto:lingzhangmyself@gmail.com">
+                  <button className="email-button button">
+                    <img className="button-img" src={Email} />{' '}
+                    <span className="email-button-text"> Email </span>{' '}
+                  </button>
+                </a>
+              </address>
+            </div>
+            <div className="linkedIn-button-hover-effect">
+              <a href="https://www.linkedin.com/in/ling-zhang-3bab52179/">
+                <button className="linkedIn-button button">
+                  <img className="button-img" src={LinkedIn} />{' '}
+                  <span className="linkedIn-button-text"> LinkedIn </span>
                 </button>
               </a>
-            </address>
-            <a href="https://www.linkedin.com/in/ling-zhang-3bab52179/">
-              <button className="linkedIn-button button">
-                <img className="button-img" src={LinkedIn} />{' '}
-                <span className="linkedIn-button-text"> LinkedIn </span>
-              </button>
-            </a>
+            </div>
           </div>
         </div>
       </div>
