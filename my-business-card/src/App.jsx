@@ -8,12 +8,12 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <>
+    <div className='card'>
     <Info /> 
     <About />
     <Interests /> 
     <Footer />
-    </>
+    </div>
   )
   // const [count, setCount] = useState(0)
 
