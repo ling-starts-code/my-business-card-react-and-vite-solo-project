@@ -1,5 +1,5 @@
 # my-business-card-react-and-vite-solo-project
-This is my practice of using react and vite from scratch
+This is my practice of using React, Vite, Figma starting from scratch
 
 
 
